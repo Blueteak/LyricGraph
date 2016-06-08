@@ -5,9 +5,10 @@ in the song (so words directly before/after are linked) allowing you to follow t
 physics simulation, so you can drag nodes around to coarsly re-shape the graph.<br><br>
 http://chartlyrics.com supplies the lyrics, free for non-commercial use.
 
-## Installation
+## Installation and Use
 Download and run `npm install` to install required components (express, body-parser, and xml2js) <br>
-Run `index.js` to start the server, then navigate to localhost:8080 to view the graph.
+Run `index.js` to start the server, then navigate to localhost:8080 to view the graph.<br><br>
+Enter a song title and artist name into the input fields to search for a song. If found, a graph will be generated, otherwise a popup will alert you that the song could not be found.
 
 ##Preview
 Here are a few graphs to show what the project does <br><br>

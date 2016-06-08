@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lyric Graph</title>
+    <style>
+        #title {
+            font-size: 32pt;
+            text-align: center;
+            left: 0;
+            right: 0;
+        }
+
+        #graph{
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 80px;
+            bottom: 0;
+            background-color: rgb(32,32,32);
+        }
+
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="vis.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="vis.min.css">
+    <script src="graph.js"></script>
+</head>
+<body>
+    <div id="title">Interactive Lyric Graph</div>
+        <span>Song: <input type="text" id="songInpt" value="Poker Face"> </span>
+        <span>Artist: <input type="text" id="artistInpt" value="Lady Gaga"> </span>
+        <span><button onclick="search()" id="submitButton">Submit</button></span>
+        <span id="loadingInfo">Loading Page ... </span>
+    <div id = "graph" ></div>
+</body>
+</html>

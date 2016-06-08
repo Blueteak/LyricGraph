@@ -1,0 +1,18 @@
+{
+  "name": "lyricgraph",
+  "version": "1.0.0",
+  "description": "Graph song lyrics based on word associations",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "request": "^2.72.0",
+    "xml2js": "^0.4.16"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Schenker <jonathan.f.schenker@vanderbilt.edu> (jonathan-schenker.com)",
+  "license": "ISC"
+}

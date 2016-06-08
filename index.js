@@ -15,8 +15,13 @@ app.get('/search', function(req, res)
         if(error)
             res.send(error);
         parseString(body, function (err, result) {
-            var lyrics = result.GetLyricResult.Lyric[0]; //Grab lyric from XML
-            res.send(lyrics);
+             if(err)
+                res.send("");
+            else
+            {
+                var lyrics = result.GetLyricResult.Lyric[0]; //Grab lyric from XML
+                res.send(lyrics);
+            }
         });
     });
 });

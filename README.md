@@ -4,6 +4,8 @@ Each word in a song is presented as a node, with size according to number of occ
 in the song (so words directly before/after are linked) allowing you to follow the edges and read the song out loud. The graph uses a
 physics simulation, so you can drag nodes around to coarsly re-shape the graph.<br><br>
 http://chartlyrics.com supplies the lyrics, free for non-commercial use.
+<br><br>
+Try it here: http://blueteak.io/lyricGraph.html
 
 ## Installation and Use
 Download and run `npm install` to install required components (express, body-parser, and xml2js) <br>

@@ -16,18 +16,15 @@ Enter a song title and artist name into the input fields to search for a song. I
 Here are a few graphs to show what the project does <br><br>
 It's Not Unusual - Belly
 <br>
-![Not Unusual]
-(http://i.imgur.com/D8LkPfk.png)
+![alt tag](http://i.imgur.com/D8LkPfk.png)
 <br><br>
 Purple Haze - Jimi Hendrix
 <br>
-![Purple Haze]
-(http://i.imgur.com/mINZGsm.png)
+![alt tag](http://i.imgur.com/mINZGsm.png)
 <br><br>
 Lose Yourself - Eminem <br>
 (Zoomed in to see words)
 <br>
-![Lose Yourself]
-(http://i.imgur.com/W2Gf4zh.png)
+![alt tag](http://i.imgur.com/W2Gf4zh.png)
 <br><br>
 

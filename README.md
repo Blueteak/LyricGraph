@@ -12,7 +12,7 @@ Download and run `npm install` to install required components (express, body-par
 Run `index.js` to start the server, then navigate to localhost:8080 to view the graph.<br><br>
 Enter a song title and artist name into the input fields to search for a song. If found, a graph will be generated, otherwise a popup will alert you that the song could not be found.
 
-##Preview
+## Preview
 Here are a few graphs to show what the project does <br><br>
 It's Not Unusual - Belly
 <br>
